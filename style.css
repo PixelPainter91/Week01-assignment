@@ -1,0 +1,187 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+
+#hero {
+  height: 100vh; 
+  display: flex;
+  align-items: center;   
+  justify-content: center; 
+  text-align: center;
+  background-image: url(images/main-bk-img.png);
+  background-size: 530px 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+#title-block h1 {
+  margin: 0.5rem 0;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+/* Highlight welcome */
+.highlight {
+  color: #ffcc00; 
+  text-decoration: underline;
+}
+
+
+#secondlineheader {
+  font-size: clamp(3rem, 7vh, 4rem);
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.view-button {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.8rem 1.6rem;
+  background-color: #577b81;
+  color: #000000;
+  border: 4px solid #233c40;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.view-button:hover {
+  background-color: #fefa75;
+  border: 4px solid #fbf9d2;
+  transform: translateY(-3px);
+}
+
+#navbar {
+  width: 100%;
+  background-color: #577b81;
+  border-top: 2px solid #233c40;
+  border-bottom: 2px solid #233c40;
+  position: sticky;   
+  top: 0;
+  z-index: 10;
+}
+
+#navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0.8rem;
+  display: flex;
+  justify-content: right;
+  gap: 2rem;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+#navbar a:hover {
+  color: #fefa75;
+}
+
+/* Content section */
+main {
+  background-color: #141414;
+  padding: 4rem 0;
+  min-height: 200vh;
+}
+
+#about{
+  height: 100vh; 
+  display: block;
+  align-items: center;   
+  justify-content: center; 
+  text-align: left;
+  background: #141414;
+}
+#about-game{
+  text-align: center;
+}
+#lore{
+  height: 100vh; 
+  display: block;
+  align-items: center;   
+  justify-content: center; 
+  text-align: left;
+  background: #141414;
+}
+#lore-title-main{
+  text-align: center;
+}
+
+.content {
+  margin: 4rem auto;
+  max-width: 800px;
+  text-align: left;
+  font-size: 1.2rem;
+}
+#contact-title{
+  text-align: center;
+}
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border: 1px solid #555;
+  border-radius: 6px;
+  background-color: #1a1a1a;
+  color: #fff;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+#contact textarea {
+  min-height: 120px; 
+}
+
+#contact button {
+  display: inline-block;
+  padding: 0.8rem 1.6rem;
+  background-color: #577b81;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+#contact button:hover {
+  background-color: #fefa75;;
+  transform: translateY(-2px);
+}
+#future-title{ 
+    text-align: center;
+}
+
+
+#future{ 
+  display: flex;  
+  justify-content: center; 
+ gap: 20px;
+}
+#knight-reps{
+    position: relative;
+    right: 50px;
+}
+#wizard-fire{
+    height:50vh;
+}
