@@ -101,15 +101,45 @@ main {
   padding: 4rem 0;
   min-height: 200vh;
 }
+#knight-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#knight-reps{
+  position: relative;
+  display:inline-block;
+  top:20px;
+}
+#knight-reps img{
+  display:block;
+  
+}
+.knight-reps-text{
+  position: absolute;
+  opacity:0;
+  justify-content:center;
+  top: 100px;
+  color: #ffcc00;
+  text-shadow: #fefa75;
+  display: inline-block;
+  white-space: nowrap;
+}
+#knight-reps:hover .knight-reps-text{
+  opacity: 1;
+  cursor: pointer;
+}
+
 
 #about{
-  height: 100vh; 
   display: block;
-  align-items: center;   
-  justify-content: center; 
   text-align: left;
+  height: 100vh; 
   background: #141414;
+  gap: 2rem;
+  margin-bottom: 200px;
 }
+
 #about-game{
   text-align: center;
 }
@@ -125,12 +155,14 @@ main {
   text-align: center;
 }
 
-.content {
+.content{
   margin: 4rem auto;
   max-width: 800px;
   text-align: left;
   font-size: 1.2rem;
+
 }
+
 #contact-title{
   text-align: center;
 }
@@ -178,10 +210,27 @@ main {
   justify-content: center; 
  gap: 20px;
 }
-#knight-reps{
-    position: relative;
-    right: 50px;
-}
+
 #wizard-fire{
     height:50vh;
+}
+.class-container{
+  position: relative;
+  display: inline-block;
+  gap: 10px;
+}
+.class-container img{
+  display: block;
+}
+.class-img-text{
+  opacity: 0;
+}
+.class-container:hover .class-img-text{
+  opacity: 1;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  color: #ffcc00;
+  text-shadow: #fefa75;
+
 }
