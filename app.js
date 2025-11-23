@@ -29,5 +29,5 @@ function scrollFunc (){
     }
 }
 
-
 window.addEventListener("scroll", scrollFunc);
+

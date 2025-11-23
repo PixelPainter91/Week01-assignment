@@ -154,7 +154,16 @@ main {
 #lore-title-main{
   text-align: center;
 }
-
+#in-game-music{
+  height: 100vh;
+  display:block;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+#music-title-main{
+  text-align: center;
+}
 .content{
   margin: 4rem auto;
   max-width: 800px;
